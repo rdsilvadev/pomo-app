@@ -1,0 +1,48 @@
+.landing-section-one {
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+  color: var(--pomodoro-primary-color);
+}
+.landing-section-two {
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--pomodoro-primary-color);
+}
+.pomodoro-description > p {
+  font-size: 1.25rem;
+}
+.landing-section-two > .pomodoro-description {
+  width: 37.5rem;
+}
+.txt-white {
+  color: var(--txt-white);
+}
+.light-theme-img {
+  margin: 10px;
+  width: 31.25rem;
+  height: 26.56rem;
+}
+.changed-bg {
+  background-color: var(--changed-theme-bg);
+}
+.pomodoro-btn {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  padding: 7px 12px;
+  border-radius: 8px;
+  background-color: var(--pomodoro-primary-color);
+  cursor: pointer;
+  align-self: center;
+  color: var(--txt-white);
+}
+.login-btn:hover {
+  background-color: var(--btn-hover);
+}
+.btns-align {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

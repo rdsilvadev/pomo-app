@@ -1,0 +1,12 @@
+.timer-with-details {
+  color: black;
+  background-color: var(--tasks-container-bg);
+  width: 72%;
+  height: 75vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 4rem;
+  border-radius: 10px;
+}

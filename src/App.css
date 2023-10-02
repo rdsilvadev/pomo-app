@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+.App {
+  font-family: "Work Sans", sans-serif;
+  height: 100vh;
+}
+:root {
+  --filter-icon-hover: #354477;
+  --txt-white: #ffffff;
+  --pomodoro-primary-color: #151f39;
+  --txt-black: #000000;
+  --changed-theme-bg: #eef9fd;
+  --tasks-container-bg: #b8c5d6;
+  --btn-hover: #232d45;
+  --border-focus: #719ece;
+  --dark-theme: #121723;
+}
+.pomodoro-dark-theme {
+  color: var(--txt-white);
+  background-color: var(--dark-theme);
+}

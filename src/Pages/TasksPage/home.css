@@ -1,0 +1,48 @@
+.main-container {
+  position: relative;
+  top: 5rem;
+  margin-top: 1.2rem;
+}
+.home-main-container {
+  position: relative;
+  top: 3rem;
+  margin: 4.9rem;
+}
+.all-tasks-container {
+  border: 1px solid var(--txt-black);
+  background-color: var(--tasks-container-bg);
+  border-radius: 10px;
+  color: var(--txt-black);
+}
+.all-tasks-container > h2 {
+  padding-left: 1.25rem;
+}
+.single-task {
+  border: 1px solid var(--txt-grey-500);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 5px 15px;
+  font-weight: bolder;
+  color: var(--txt-black);
+  border-radius: 10px;
+}
+.pomodoro-icons {
+  border: none;
+  color: var(--txt-black);
+  margin-right: 1.25rem;
+  font-weight: bolder;
+}
+.add-task-btn {
+  position: absolute;
+  right: 10px;
+  top: 6.7rem;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--pomodoro-primary-color);
+}
+.all-single-tasks {
+  margin: 1.56rem 0px;
+}

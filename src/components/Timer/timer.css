@@ -1,0 +1,36 @@
+.timer-container {
+  color: var(--txt-black);
+}
+.timer-icons {
+  font-size: 1.87rem;
+}
+.single-task-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--border-focus);
+  padding: 10px;
+  height: 25rem;
+  width: 28.12rem;
+  flex-wrap: wrap;
+}
+.btns-align {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+h1 {
+  margin: 5px;
+}
+.progress-bar {
+  width: 15.62rem;
+  height: 15.62rem;
+}
+.progress-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3.12rem;
+  align-items: center;
+}

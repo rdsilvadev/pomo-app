@@ -1,0 +1,22 @@
+.navbar-wrapper {
+  background-color: var(--pomodoro-primary-color);
+  position: fixed;
+  top: 0;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+.filter-icon {
+  color: var(--txt-white);
+  font-size: 1.25rem;
+  cursor: pointer;
+  padding: 8px;
+  margin-right: 2.18rem;
+  border: 1px solid var(--pomodoro-primary-color);
+}
+.navbar-wrapper {
+  margin-top: 0px;
+  border-radius: 0px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
